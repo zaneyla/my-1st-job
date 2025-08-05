@@ -1,0 +1,167 @@
+body {
+  background-image: url('https://img.wallscloud.net/uploads/thumb/4138225120/jupiter-1-53485-1024x576-MM-80.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white; 
+    font-family: Arial, sans-serif;
+}
+hr {
+    height: 4px;
+    border: none;
+    border-top: 2px dashed  rgba(7, 62, 20, 0.995);
+}
+aside a img {
+    width: 20%;
+    height: auto;
+    box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.3);
+}
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 17px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: rgba(147, 133, 9, 0.77);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+nav ul li a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+.bike-link {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 8px 12px;
+    background-color: #1a1a1a;
+    color: #00ffcc;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+.bike-link:hover {
+    background-color: #19b611;
+    color: rgb(134, 22, 12);
+}
+.bike-link img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    border-radius: 12px;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #90ee90;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #228b22;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #32cd32;
+}
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    h1, h2, h3 {
+        font-size: 24px;
+    }
+
+    .bike-link {
+        width: 50%;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .bike-link img {
+        max-width: 100%;
+
+    }
+
+    aside a img {
+        width: 60%;
+    }
+
+    header img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .back-to-top {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
